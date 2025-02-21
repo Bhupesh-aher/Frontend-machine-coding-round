@@ -1,11 +1,13 @@
 import React from 'react';
-import AutoSearch from "./Autocomplete Search/AutoSearch" 
+import './index.css'
+import Pagination from './Pagination/Pagination';
 
 function App() {
 
   return (
     <div>
-      <AutoSearch/>
+     
+      <Pagination/>
     </div>
   )
 }
