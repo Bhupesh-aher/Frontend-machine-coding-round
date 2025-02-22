@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css'
-import Pagination from './Pagination/Pagination';
+import Progress from './Progress Bar/Progress';
 
 function App() {
 
+
   return (
-    <div>
-     
-      <Pagination/>
+    <div className='app'>
+      <Progress/> 
     </div>
   )
 }
