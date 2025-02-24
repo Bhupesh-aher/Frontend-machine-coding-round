@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css'
-import Progress from './Progress Bar/Progress';
+import FileExplorer from './File Explorer/FileExplorer';
 
 function App() {
 
 
   return (
     <div className='app'>
-      <Progress/> 
+      <FileExplorer/>
     </div>
   )
 }
