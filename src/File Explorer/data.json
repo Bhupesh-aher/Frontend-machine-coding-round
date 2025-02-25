@@ -8,6 +8,12 @@
                 "id": "2",
                 "name": "index.html",
                 "isFolder": false
+            },
+            {
+                "id": "12",
+                "name": "images",
+                "isFolder": true,
+                "children": []
             }
         ]
     },
@@ -54,4 +60,3 @@
         "isFolder": false
     }
 ]
-
