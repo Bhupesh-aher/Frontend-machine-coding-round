@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css'
-import FileExplorer from './File Explorer/FileExplorer';
+import TabForm from './Tab Form/TabForm';
 
 function App() {
 
 
   return (
     <div className='app'>
-      <FileExplorer/>
+      <TabForm/>
     </div>
   )
 }
