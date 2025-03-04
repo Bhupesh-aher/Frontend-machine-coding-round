@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css'
-import TabForm from './Tab Form/TabForm';
+import ClickBox from './Click The Box/ClickBox';
 
 function App() {
 
 
   return (
     <div className='app'>
-      <TabForm/>
+      <ClickBox/>
     </div>
   )
 }
