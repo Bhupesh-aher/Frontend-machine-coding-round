@@ -1,0 +1,18 @@
+.conatiner{
+    text-align: left;
+    padding-left: 20px;
+    max-width: 300px;
+    cursor: pointer;
+
+}
+
+.con{
+    padding: 20px;
+}
+
+.icon{
+    height: 15px;
+    width: 15px;
+    margin-left: 9px;
+
+}

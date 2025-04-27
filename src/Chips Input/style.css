@@ -1,0 +1,39 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    width: 200px;
+    padding: 8px;
+}
+
+.chips-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.chip{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+button{
+    color: red;
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
