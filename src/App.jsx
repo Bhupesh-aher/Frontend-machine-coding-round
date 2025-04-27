@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import ChipsInput from './Chips Input/ChipsInput';
+import Accordian from './Accordion/Accordian';
 
 
 
@@ -8,11 +8,11 @@ import ChipsInput from './Chips Input/ChipsInput';
 function App() {
 
 
-  return (
-    <div className='app'>
-        <ChipsInput/>
-    </div>
-  )
+    return (
+      <div className='app'>
+        <Accordian />
+      </div>
+    )
 }
 
 export default App
