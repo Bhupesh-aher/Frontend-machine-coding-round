@@ -1,0 +1,23 @@
+.heading-container{
+    display: flex;
+}
+
+.heading{
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.tab-body{
+    border: 1px solid black;
+    display: flex;
+    height: 30vh;
+    width: 70vw;
+    padding: 5px;
+}
+
+.error{
+    display: block;
+    color: red;
+    font-size: small;
+}
