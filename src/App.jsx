@@ -1,16 +1,15 @@
 import React from 'react';
 import './index.css';
-import InputOTP from './OTP Input/InputOTP';
+import TransferList from './Transfer List/TransferList';
 
 
 
 
 function App() {
 
-
     return (
       <div className='app'>
-        <InputOTP/>
+        <TransferList/>
       </div>
     )
 }
