@@ -1,8 +1,12 @@
 import React from 'react'
+import "./style.css"
+
 
 const LikeButton = () => {
   return (
-    <div>LikeButton</div>
+    <div>
+      
+    </div>
   )
 }
 
