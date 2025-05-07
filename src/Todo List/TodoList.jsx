@@ -40,7 +40,7 @@ const TodoList = () => {
                     todos.map((todo, index) => (
                         <div className='todo' key={todo.id}>
                             <label style={{textDecoration: checked[todo.id] == true ? "line-through" : "none"}}>
-                                <input type="checkbox" checked={checked[todo.id] || false} onChange={(e) => markNote(e, todo.id)}/>
+                                <input type="checkbox" checked={checked[todo.id] || false} onChange={(e) => markNote(e, todo.id)} placeholder='Add Todo'/>
                                 {todo.text}
                             </label>
                             <button onClick={() => deleteNote(todo.id)}>Delete</button>
