@@ -6,7 +6,6 @@ const TodoList = () => {
     const [todos, setTodos] = useState([])
     const [checked, setChecked] = useState({});
 
-
     const addNote = () => {
         setTodos((prev) => ([...prev, {id: Date.now(), text: inputText}]))
         setInputText('');

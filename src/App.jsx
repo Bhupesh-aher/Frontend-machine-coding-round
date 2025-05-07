@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import TodoList from './Todo List/TodoList';
+import Home from './Infinite Scroll/Home';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
     return (
       <div className='app'>
-        <TodoList/>
+        <Home/>
       </div>
     )
 }
