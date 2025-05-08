@@ -7,7 +7,8 @@ const TodoList = () => {
     const [checked, setChecked] = useState({});
 
     const addNote = () => {
-        setTodos((prev) => ([...prev, {id: Date.now(), text: inputText}]))
+        if(inputText.trim() === "") return;
+        setTodos((prev) => ([...prev, {id: Date.now(), text: inputText.trim()}]))
         setInputText('');
     }
 
