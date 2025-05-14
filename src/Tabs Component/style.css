@@ -1,0 +1,17 @@
+.tabs-container{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+
+
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: black;
+      border: none;
+    cursor: pointer;
+}

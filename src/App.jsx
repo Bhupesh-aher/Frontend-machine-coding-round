@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import SortableList from './Soratble List/SortableList';
+import TabsCom from './Tabs Component/TabsCom';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
     return (
       <div className='app'>
-        <SortableList/>
+        <TabsCom/>
       </div>
     )
 }
