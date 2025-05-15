@@ -9,3 +9,13 @@
 4. File-Folder Explorer
 
 5. Tab Form
+
+6. Accordian
+
+7. Chips Input
+
+8. Click The Box
+
+9. Infinite Scroll
+
+10. Nested CheckBoxes
