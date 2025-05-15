@@ -19,3 +19,14 @@
 9. Infinite Scroll
 
 10. Nested CheckBoxes
+
+11. OTP Input
+
+12. Sortable List
+
+13. Tabs Component
+
+14. Todo List
+
+15. Transfer List
+
