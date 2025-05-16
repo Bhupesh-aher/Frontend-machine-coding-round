@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import TabsCom from './Tabs Component/TabsCom';
+import DataTable from './Data Table/DataTable';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
     return (
       <div className='app'>
-        <TabsCom/>
+        <DataTable/>
       </div>
     )
 }
