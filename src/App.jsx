@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import StartRating from './Star Rating/StartRating';
+import Form from './Contact Form/Form';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
     return (
       <div className='app'>
-        <StartRating/>
+        <Form/>
       </div>
     )
 }
