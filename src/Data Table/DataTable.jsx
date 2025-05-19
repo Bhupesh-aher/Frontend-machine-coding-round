@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import data from "./data.json"
-import "./style.css"
 
 const DataTable = () => {
 
@@ -33,7 +32,7 @@ const DataTable = () => {
     
     
     return (
-        <div>
+        <div style={{maxwidth: "600px", margin: "auto"}}>
             <h3>Data Table</h3>
             {data.length === 0 ? <p>No data available</p> : 
             

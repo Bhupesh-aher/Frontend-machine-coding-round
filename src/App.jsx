@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import DataTable from './Data Table/DataTable';
+import StartRating from './Star Rating/StartRating';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
     return (
       <div className='app'>
-        <DataTable/>
+        <StartRating/>
       </div>
     )
 }
