@@ -32,5 +32,6 @@
 
 16. Data Table
 
-
 17. Star Rating
+
+18. Contact Form
