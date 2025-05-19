@@ -31,3 +31,6 @@
 15. Transfer List
 
 16. Data Table
+
+
+17. Star Rating
