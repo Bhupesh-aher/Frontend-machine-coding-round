@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
-import Apps from './Product Store/Apps';
 import { BrowserRouter } from 'react-router-dom';
+import Modal from './Modal/Modal';
 
 
 
@@ -10,9 +10,7 @@ function App() {
 
     return (
       <div className='app'>
-        <BrowserRouter>     
-         <Apps/>
-         </BrowserRouter> 
+        <Modal/>
       </div>
     )
 }
