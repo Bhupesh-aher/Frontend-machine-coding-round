@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
-import InputFocus from './Focus Input/InputFocus';
+import Apps from './Product Store/Apps';
+import { BrowserRouter } from 'react-router-dom';
 
 
 
@@ -9,7 +10,9 @@ function App() {
 
     return (
       <div className='app'>
-       <InputFocus/>
+        <BrowserRouter>     
+         <Apps/>
+         </BrowserRouter> 
       </div>
     )
 }
