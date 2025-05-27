@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import Modal from './Modal/Modal';
+import BlogPosts from './Blog Post/BlogPosts';
 
 
 
@@ -10,7 +10,7 @@ function App() {
 
     return (
       <div className='app'>
-        <Modal/>
+       <BlogPosts/>
       </div>
     )
 }
