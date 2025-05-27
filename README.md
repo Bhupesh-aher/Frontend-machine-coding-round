@@ -41,3 +41,5 @@
 20. Product Store
 
 21. Modal
+
+22. Blog Posts
