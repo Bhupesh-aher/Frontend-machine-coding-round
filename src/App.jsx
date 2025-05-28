@@ -1,16 +1,14 @@
 import React from 'react';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import BlogPosts from './Blog Post/BlogPosts';
-
+import FilterRecipe from './Filter Recipes/Filterrecipe';
 
 
 
 function App() {
-
     return (
       <div className='app'>
-       <BlogPosts/>
+       <FilterRecipe/>
       </div>
     )
 }
