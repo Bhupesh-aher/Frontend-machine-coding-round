@@ -1,14 +1,14 @@
 import React from 'react';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import FilterRecipe from './Filter Recipes/Filterrecipe';
+import TrafficLight from './Traffic Light/TrafficLight';
 
 
 
 function App() {
     return (
       <div className='app'>
-       <FilterRecipe/>
+        <TrafficLight/>
       </div>
     )
 }
