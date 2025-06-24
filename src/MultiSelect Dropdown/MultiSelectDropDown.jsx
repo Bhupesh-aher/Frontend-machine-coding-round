@@ -17,7 +17,6 @@ const MultiSelectDropDown = () => {
     const [result, setResult] = useState(null);
     const dropdownRef = useRef(null);
 
-    console.log(dropdownRef);
 
     const toggleDropDown = () => setIsOpen((prev) => !prev);
 
