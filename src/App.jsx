@@ -1,16 +1,15 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import TrafficLight from './Traffic Light/TrafficLight';
-
+import MultiSelectDropDown from './MultiSelect Dropdown/MultiSelectDropDown';
 
 
 function App() {
     return (
-      <div className='app'>
-        <TrafficLight/>
+      <div>
+        <MultiSelectDropDown/>
       </div>
     )
 }
 
-export default App
+export default App;
