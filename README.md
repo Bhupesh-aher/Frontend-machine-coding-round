@@ -49,3 +49,5 @@
 24. Traffic Light
 
 25. MultiSelect Dropdown
+
+26. List Sorter
