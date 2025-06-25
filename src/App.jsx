@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import MultiSelectDropDown from './MultiSelect Dropdown/MultiSelectDropDown';
+import ListSorter from './List Sorter/ListSorter';
 
 
 function App() {
     return (
       <div>
-        <MultiSelectDropDown/>
+        <ListSorter/>
       </div>
     )
 }
