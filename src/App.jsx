@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import ListSorter from './List Sorter/ListSorter';
+import DragDrop from './Drag and Drop/DragDrop';
 
 
 function App() {
     return (
       <div>
-        <ListSorter/>
+        <DragDrop/>
       </div>
     )
 }
